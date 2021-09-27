@@ -251,7 +251,6 @@ p {
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 0 !important;
 }
 #fh5co-home .flexslider .fh5co-overlay {
   position: absolute;
@@ -470,11 +469,11 @@ p {
 }
 
 #fh5co-sayings {
-  padding: 2em 0;
+  padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-sayings {
-    padding: 2em 0;
+    padding: 5em 0;
   }
 }
 #fh5co-sayings .flexslider .slides li {
@@ -520,11 +519,6 @@ p {
     bottom: -60px;
   }
 }
-
-.flexslider {
-  margin-bottom: 0 !important;
-}
-
 #fh5co-sayings .flexslider .flex-control-paging li a {
   width: 14px;
   height: 14px;

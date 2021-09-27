@@ -47,11 +47,10 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  background-position: center !important;
 }
-.flexslider .slides img {
-  width: 100%;
-  display: block;
-}
+.flexslider .slides img {width: auto; display: block; margin-left: auto; margin-right: auto;}
+
 .flexslider .slides:after {
   content: "\0020";
   display: block;
