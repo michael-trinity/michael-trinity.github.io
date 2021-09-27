@@ -32,6 +32,8 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
+		<link type="text/css" rel="stylesheet" media="screen" href="js/sakura/jquery-sakura.min.css" />
+
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -501,7 +503,17 @@
 <!-- Main JS -->
 <script src="js/main.js"></script>
 <script src="js/lightbox2-2.11.3/src/js/lightbox.js"></script>
-
+<script src="js/sakura/jquery-sakura.min.js"></script>
+<script>
+	$(function() {
+		$('body').sakura('start', {
+			maxSize: 26,         // Maximum petal size
+			minSize: 20,          // Minimum petal size
+			newOn: 300
+		});
+		console.log('fall')
+	});
+</script>
 </body>
 </html>
 

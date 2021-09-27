@@ -185,6 +185,10 @@ p {
   border-color: #fb6e14;
 }
 
+.sakura {
+  z-index: 999 !important;
+}
+
 /*
  * Flexslider
  */
