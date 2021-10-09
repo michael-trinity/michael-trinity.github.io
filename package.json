@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nodejs-file-downloader": "^4.7.4"
+  }
+}
